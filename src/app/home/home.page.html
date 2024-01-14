@@ -1,0 +1,127 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <div class="title-text">
+      <ion-title class="title">
+        <div class="header-container">
+          <span>FIRSTCLASS MENTOR</span>
+          <span>sai vinay</span>
+          <div class="head-txt">
+            <div class="text-icon">
+              <ion-icon name="swap-vertical-outline"></ion-icon>
+            </div>
+            <span>Default process</span>
+          </div>
+        </div>
+      </ion-title>
+      <div class="icon-contain">
+        <ion-icon name="cafe"></ion-icon>
+        <ion-icon style="padding-left: 30px;" name="power-outline"></ion-icon>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <div class="row pd">
+      <div class="col-4">
+        <div class="horizt-text" style="background: linear-gradient(to right, #fa7a61, #f62157);color: #fff;">
+          Today X
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="horizt-text">
+          Last&nbsp;7&nbsp;Days
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="horizt-text">
+          Last&nbsp;30&nbsp;Days
+        </div>
+      </div>
+    </div>
+    <p>INBOUND</p>
+    <div class="row pd-card">
+      <div class="col-3">
+        <ion-card class="card">
+          <ion-icon class="icon" name="arrow-down-outline"></ion-icon>
+          <span class="card-text">229</span>
+          <span class="text-center">RECEIVED</span>
+        </ion-card>
+      </div>
+      <div class="col-3">
+        <ion-card class="card">
+          <ion-icon class="icon-nor" name="trending-up-outline"></ion-icon>
+          <span class="card-text">115</span>
+          <span class="text-center">MISSED</span>
+        </ion-card>
+      </div>
+      <div class="col-3">
+        <ion-card class="card">
+          <ion-icon class="icon-nor" name="call"></ion-icon>
+          <span class="card-text">114</span>
+          <span class="text-center">ANSWERED</span>
+        </ion-card>
+      </div>
+      <div class="col-3">
+        <ion-card class="card">
+          <ion-icon class="icon-nor" name="person"></ion-icon>
+          <span class="card-text">1</span>
+          <span class="text-center">INCOMING PERSONAL</span>
+        </ion-card>
+      </div>
+    </div>
+    <ion-card class="card-contain">
+      <ion-list>
+        <ion-item>
+          <ion-label>Avg.Talktime</ion-label>
+          <p class="list-txt">0m 38s</p>
+        </ion-item>
+        <ion-item>
+          <ion-label>Total Talktime</ion-label>
+          <p class="list-txt">17hr 24m 14s</p>
+        </ion-item>
+        <ion-item>
+          <ion-label>Break Time</ion-label>
+          <p class="list-txt">16hr 0m 314s</p>
+        </ion-item>
+        <ion-item>
+          <ion-label>Idle Time</ion-label>
+          <p class="list-txt">N/A</p>
+        </ion-item>
+        <ion-item>
+          <ion-label>Wrapup Time</ion-label>
+          <p class="list-txt">11hr 15m 18s</p>
+        </ion-item>
+        <ion-item>
+          <ion-label>Avg.Login Time</ion-label>
+          <p class="list-txt">N/A</p>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+    <div class="horizat-container">
+      <p>STATUS</p>
+      <div class="horizat-txt">
+        <p>All</p>
+        <ion-toggle [checked]="true"></ion-toggle>
+        <p class="hort-txt">Unique</p>
+      </div>
+    </div>
+    <ion-card class="card-contain">
+      <ion-list>
+        <ion-item>
+          <ion-label>Open Missed Calls</ion-label>
+          <p class="list-txt">62</p>
+        </ion-item>
+        <ion-item>
+          <ion-label>Interested</ion-label>
+          <p class="list-txt">35</p>
+        </ion-item>
+        <ion-item>
+          <ion-label>Not interested</ion-label>
+          <p class="list-txt">785</p>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+  </div>
+</ion-content>

@@ -1,0 +1,267 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <div class="header-container" *ngIf="!showSearchbar">
+      <ion-title>Customers</ion-title>
+      <ion-icon name="search-outline" (click)="search()"></ion-icon>
+      <ion-icon name="options-outline" (click)="filterModal()"></ion-icon>
+      <ion-icon name="people" (click)="searchByPeople()"></ion-icon>
+    </div>
+    <div class="search_bar" *ngIf="showSearchbar">
+      <ion-icon name="arrow-back"></ion-icon><ion-input placeholder="Search by Name/Phone/Company"/>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <p class="text-center"><ion-icon name="arrow-down-outline"></ion-icon>Swipe down to refresh</p>
+    <div class="row pd">
+      <div class="col-4">
+        <div class="horizt-text" style="background: linear-gradient(to right, #fa7a61, #f62157);">
+          Overall X
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="horizt-text">
+          Last&nbsp;30&nbsp;Days
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="horizt-text">
+          Select&nbsp;Range
+        </div>
+      </div>
+    </div>
+    <p style="padding-top: 10px;">Total - 148810</p>
+    <div class="row pd-card">
+      <ion-card class="card">
+        <ion-list>
+          <ion-item>
+            <div class="card-body">
+              <div class="card-pd">
+                <p>Call Back</p>
+                <p style="font-size: 20px;">YOGA&nbsp;SREE.M</p>
+              </div>
+              <div style="display: flex;">
+                <div class="card-body-par">
+                  <p>9:42&nbsp;AM,Today</p>
+                  <p style="padding-left: 23px;color: #808080;">By:Deepthi</p>
+                </div>
+                <div class="card-body-div">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+        </ion-list>
+      </ion-card>
+    </div>
+    <div class="row pd-card">
+      <ion-card class="card">
+        <ion-list>
+          <ion-item>
+            <div class="card-body">
+              <div class="card-pd">
+                <p>Call Back</p>
+                <p style="font-size: 20px;">YOGA&nbsp;SREE.M</p>
+              </div>
+              <div style="display: flex;">
+                <div class="card-body-par">
+                  <p>9:42&nbsp;AM,Today</p>
+                  <p style="padding-left: 23px;color: #808080;">By:Deepthi</p>
+                </div>
+                <div class="card-body-div">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+        </ion-list>
+      </ion-card>
+    </div>
+    <div class="row pd-card">
+      <ion-card class="card">
+        <ion-list>
+          <ion-item>
+            <div class="card-body">
+              <div class="card-pd">
+                <p>Call Back</p>
+                <p style="font-size: 20px;">YOGA&nbsp;SREE.M</p>
+              </div>
+              <div style="display: flex;">
+                <div class="card-body-par">
+                  <p>9:42&nbsp;AM,Today</p>
+                  <p style="padding-left: 23px;color: #808080;">By:Deepthi</p>
+                </div>
+                <div class="card-body-div">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+        </ion-list>
+      </ion-card>
+    </div>
+    <div class="row pd-card">
+      <ion-card class="card">
+        <ion-list>
+          <ion-item>
+            <div class="card-body">
+              <div class="card-pd">
+                <p>Call Back</p>
+                <p style="font-size: 20px;">YOGA&nbsp;SREE.M</p>
+              </div>
+              <div style="display: flex;">
+                <div class="card-body-par">
+                  <p>9:42&nbsp;AM,Today</p>
+                  <p style="padding-left: 23px;color: #808080;">By:Deepthi</p>
+                </div>
+                <div class="card-body-div">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+        </ion-list>
+      </ion-card>
+    </div>
+    <div class="row pd-card">
+      <ion-card class="card">
+        <ion-list>
+          <ion-item>
+            <div class="card-body">
+              <div class="card-pd">
+                <p>Call Back</p>
+                <p style="font-size: 20px;">YOGA&nbsp;SREE.M</p>
+              </div>
+              <div style="display: flex;">
+                <div class="card-body-par">
+                  <p>9:42&nbsp;AM,Today</p>
+                  <p style="padding-left: 23px;color: #808080;">By:Deepthi</p>
+                </div>
+                <div class="card-body-div">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+        </ion-list>
+      </ion-card>
+    </div>
+    <div class="row pd-card">
+      <ion-card class="card">
+        <ion-list>
+          <ion-item>
+            <div class="card-body">
+              <div class="card-pd">
+                <p>Call Back</p>
+                <p style="font-size: 20px;">YOGA&nbsp;SREE.M</p>
+              </div>
+              <div style="display: flex;">
+                <div class="card-body-par">
+                  <p>9:42&nbsp;AM,Today</p>
+                  <p style="padding-left: 23px;color: #808080;">By:Deepthi</p>
+                </div>
+                <div class="card-body-div">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+        </ion-list>
+      </ion-card>
+    </div>
+    <div class="row pd-card">
+      <ion-card class="card">
+        <ion-list>
+          <ion-item>
+            <div class="card-body">
+              <div class="card-pd">
+                <p>Call Back</p>
+                <p style="font-size: 20px;">YOGA&nbsp;SREE.M</p>
+              </div>
+              <div style="display: flex;">
+                <div class="card-body-par">
+                  <p>9:42&nbsp;AM,Today</p>
+                  <p style="padding-left: 23px;color: #808080;">By:Deepthi</p>
+                </div>
+                <div class="card-body-div">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+        </ion-list>
+      </ion-card>
+    </div>
+    <div class="row pd-card">
+      <ion-card class="card">
+        <ion-list>
+          <ion-item>
+            <div class="card-body">
+              <div class="card-pd">
+                <p>Call Back</p>
+                <p style="font-size: 20px;">YOGA&nbsp;SREE.M</p>
+              </div>
+              <div style="display: flex;">
+                <div class="card-body-par">
+                  <p>9:42&nbsp;AM,Today</p>
+                  <p style="padding-left: 23px;color: #808080;">By:Deepthi</p>
+                </div>
+                <div class="card-body-div">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+        </ion-list>
+      </ion-card>
+    </div>
+    <div class="row pd-card">
+      <ion-card class="card">
+        <ion-list>
+          <ion-item>
+            <div class="card-body">
+              <div class="card-pd">
+                <p>Call Back</p>
+                <p style="font-size: 20px;">YOGA&nbsp;SREE.M</p>
+              </div>
+              <div style="display: flex;">
+                <div class="card-body-par">
+                  <p>9:42&nbsp;AM,Today</p>
+                  <p style="padding-left: 23px;color: #808080;">By:Deepthi</p>
+                </div>
+                <div class="card-body-div">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+        </ion-list>
+      </ion-card>
+    </div>
+    <div class="row pd-card">
+      <ion-card class="card">
+        <ion-list>
+          <ion-item>
+            <div class="card-body">
+              <div class="card-pd">
+                <p>Call Back</p>
+                <p style="font-size: 20px;">YOGA&nbsp;SREE.M</p>
+              </div>
+              <div style="display: flex;">
+                <div class="card-body-par">
+                  <p>9:42&nbsp;AM,Today</p>
+                  <p style="padding-left: 23px;color: #808080;">By:Deepthi</p>
+                </div>
+                <div class="card-body-div">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </ion-item>
+        </ion-list>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>

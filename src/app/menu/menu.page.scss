@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100px;
+    justify-content: center;
+}
+.icon {
+    width: 100%;
+    height: 24%;
+}
+.title {
+    background: linear-gradient(to right, #fa7a61, #f62157);
+    width: 100%;
+    height: 56px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+.container {
+    background: var(--ion-color-light);
+    padding-bottom: 75px;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+
+    .pd{
+        margin: 0;
+        padding: 0;
+    }
+
+}
